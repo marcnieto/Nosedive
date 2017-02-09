@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F23AFB5E1DBD99250037FFB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AFB5D1DBD99250037FFB1 /* AppDelegate.swift */; };
+		F23AFB601DBD99250037FFB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AFB5F1DBD99250037FFB1 /* ViewController.swift */; };
+		F23AFB631DBD99250037FFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23AFB611DBD99250037FFB1 /* Main.storyboard */; };
+		F23AFB651DBD99250037FFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23AFB641DBD99250037FFB1 /* Assets.xcassets */; };
+		F23AFB681DBD99250037FFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23AFB661DBD99250037FFB1 /* LaunchScreen.storyboard */; };
+		F23AFB8C1DBDA3900037FFB1 /* RateTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AFB8B1DBDA3900037FFB1 /* RateTile.swift */; };
+		F281085D1DBDB1C70097FCDA /* RateTile.xib in Resources */ = {isa = PBXBuildFile; fileRef = F281085C1DBDB1C70097FCDA /* RateTile.xib */; };
+		F281085F1DBF3C5E0097FCDA /* ActionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281085E1DBF3C5D0097FCDA /* ActionTile.swift */; };
+		F28108611DBF3C720097FCDA /* ActionTile.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28108601DBF3C720097FCDA /* ActionTile.xib */; };
+		F28108631DBF53600097FCDA /* ConfirmationTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28108621DBF53600097FCDA /* ConfirmationTile.swift */; };
+		F28108651DBF53BE0097FCDA /* ConfirmationTile.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28108641DBF53BE0097FCDA /* ConfirmationTile.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23AFB6F1DBD99250037FFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23AFB521DBD99250037FFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23AFB591DBD99250037FFB1;
+			remoteInfo = Nosedive;
+		};
+		F23AFB7A1DBD99250037FFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23AFB521DBD99250037FFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23AFB591DBD99250037FFB1;
+			remoteInfo = Nosedive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F23AFB5A1DBD99250037FFB1 /* Nosedive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nosedive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23AFB5D1DBD99250037FFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F23AFB5F1DBD99250037FFB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F23AFB621DBD99250037FFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F23AFB641DBD99250037FFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F23AFB671DBD99250037FFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F23AFB691DBD99250037FFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23AFB6E1DBD99250037FFB1 /* NosediveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NosediveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23AFB791DBD99250037FFB1 /* NosediveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NosediveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23AFB8B1DBDA3900037FFB1 /* RateTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RateTile.swift; path = RateTile/RateTile.swift; sourceTree = "<group>"; };
+		F281085C1DBDB1C70097FCDA /* RateTile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RateTile.xib; path = RateTile/RateTile.xib; sourceTree = "<group>"; };
+		F281085E1DBF3C5D0097FCDA /* ActionTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionTile.swift; path = ActionTile/ActionTile.swift; sourceTree = "<group>"; };
+		F28108601DBF3C720097FCDA /* ActionTile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActionTile.xib; path = ActionTile/ActionTile.xib; sourceTree = "<group>"; };
+		F28108621DBF53600097FCDA /* ConfirmationTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfirmationTile.swift; path = ConfirmationTile/ConfirmationTile.swift; sourceTree = "<group>"; };
+		F28108641DBF53BE0097FCDA /* ConfirmationTile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConfirmationTile.xib; path = ConfirmationTile/ConfirmationTile.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23AFB571DBD99250037FFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23AFB6B1DBD99250037FFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23AFB761DBD99250037FFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20753B11E4C56F3005C103E /* RateTile */ = {
+			isa = PBXGroup;
+			children = (
+				F23AFB8B1DBDA3900037FFB1 /* RateTile.swift */,
+				F281085C1DBDB1C70097FCDA /* RateTile.xib */,
+			);
+			name = RateTile;
+			sourceTree = "<group>";
+		};
+		F20753B21E4C5701005C103E /* ActionTile */ = {
+			isa = PBXGroup;
+			children = (
+				F281085E1DBF3C5D0097FCDA /* ActionTile.swift */,
+				F28108601DBF3C720097FCDA /* ActionTile.xib */,
+			);
+			name = ActionTile;
+			sourceTree = "<group>";
+		};
+		F20753B31E4C5709005C103E /* ConfirmationTile */ = {
+			isa = PBXGroup;
+			children = (
+				F28108621DBF53600097FCDA /* ConfirmationTile.swift */,
+				F28108641DBF53BE0097FCDA /* ConfirmationTile.xib */,
+			);
+			name = ConfirmationTile;
+			sourceTree = "<group>";
+		};
+		F23AFB511DBD99250037FFB1 = {
+			isa = PBXGroup;
+			children = (
+				F23AFB5C1DBD99250037FFB1 /* Nosedive */,
+				F23AFB5B1DBD99250037FFB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F23AFB5B1DBD99250037FFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23AFB5A1DBD99250037FFB1 /* Nosedive.app */,
+				F23AFB6E1DBD99250037FFB1 /* NosediveTests.xctest */,
+				F23AFB791DBD99250037FFB1 /* NosediveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23AFB5C1DBD99250037FFB1 /* Nosedive */ = {
+			isa = PBXGroup;
+			children = (
+				F20753B11E4C56F3005C103E /* RateTile */,
+				F20753B21E4C5701005C103E /* ActionTile */,
+				F20753B31E4C5709005C103E /* ConfirmationTile */,
+				F23AFB5D1DBD99250037FFB1 /* AppDelegate.swift */,
+				F23AFB5F1DBD99250037FFB1 /* ViewController.swift */,
+				F23AFB611DBD99250037FFB1 /* Main.storyboard */,
+				F23AFB641DBD99250037FFB1 /* Assets.xcassets */,
+				F23AFB661DBD99250037FFB1 /* LaunchScreen.storyboard */,
+				F23AFB691DBD99250037FFB1 /* Info.plist */,
+			);
+			path = Nosedive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23AFB591DBD99250037FFB1 /* Nosedive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23AFB821DBD99250037FFB1 /* Build configuration list for PBXNativeTarget "Nosedive" */;
+			buildPhases = (
+				F23AFB561DBD99250037FFB1 /* Sources */,
+				F23AFB571DBD99250037FFB1 /* Frameworks */,
+				F23AFB581DBD99250037FFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nosedive;
+			productName = Nosedive;
+			productReference = F23AFB5A1DBD99250037FFB1 /* Nosedive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23AFB6D1DBD99250037FFB1 /* NosediveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23AFB851DBD99250037FFB1 /* Build configuration list for PBXNativeTarget "NosediveTests" */;
+			buildPhases = (
+				F23AFB6A1DBD99250037FFB1 /* Sources */,
+				F23AFB6B1DBD99250037FFB1 /* Frameworks */,
+				F23AFB6C1DBD99250037FFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23AFB701DBD99250037FFB1 /* PBXTargetDependency */,
+			);
+			name = NosediveTests;
+			productName = NosediveTests;
+			productReference = F23AFB6E1DBD99250037FFB1 /* NosediveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F23AFB781DBD99250037FFB1 /* NosediveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23AFB881DBD99250037FFB1 /* Build configuration list for PBXNativeTarget "NosediveUITests" */;
+			buildPhases = (
+				F23AFB751DBD99250037FFB1 /* Sources */,
+				F23AFB761DBD99250037FFB1 /* Frameworks */,
+				F23AFB771DBD99250037FFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23AFB7B1DBD99250037FFB1 /* PBXTargetDependency */,
+			);
+			name = NosediveUITests;
+			productName = NosediveUITests;
+			productReference = F23AFB791DBD99250037FFB1 /* NosediveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23AFB521DBD99250037FFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KandidProductions;
+				TargetAttributes = {
+					F23AFB591DBD99250037FFB1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4KZ4V98VU7;
+						ProvisioningStyle = Automatic;
+					};
+					F23AFB6D1DBD99250037FFB1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F23AFB591DBD99250037FFB1;
+					};
+					F23AFB781DBD99250037FFB1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F23AFB591DBD99250037FFB1;
+					};
+				};
+			};
+			buildConfigurationList = F23AFB551DBD99250037FFB1 /* Build configuration list for PBXProject "Nosedive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F23AFB511DBD99250037FFB1;
+			productRefGroup = F23AFB5B1DBD99250037FFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23AFB591DBD99250037FFB1 /* Nosedive */,
+				F23AFB6D1DBD99250037FFB1 /* NosediveTests */,
+				F23AFB781DBD99250037FFB1 /* NosediveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23AFB581DBD99250037FFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23AFB681DBD99250037FFB1 /* LaunchScreen.storyboard in Resources */,
+				F23AFB651DBD99250037FFB1 /* Assets.xcassets in Resources */,
+				F28108651DBF53BE0097FCDA /* ConfirmationTile.xib in Resources */,
+				F23AFB631DBD99250037FFB1 /* Main.storyboard in Resources */,
+				F281085D1DBDB1C70097FCDA /* RateTile.xib in Resources */,
+				F28108611DBF3C720097FCDA /* ActionTile.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23AFB6C1DBD99250037FFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23AFB771DBD99250037FFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23AFB561DBD99250037FFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23AFB601DBD99250037FFB1 /* ViewController.swift in Sources */,
+				F28108631DBF53600097FCDA /* ConfirmationTile.swift in Sources */,
+				F23AFB8C1DBDA3900037FFB1 /* RateTile.swift in Sources */,
+				F23AFB5E1DBD99250037FFB1 /* AppDelegate.swift in Sources */,
+				F281085F1DBF3C5E0097FCDA /* ActionTile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23AFB6A1DBD99250037FFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23AFB751DBD99250037FFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23AFB701DBD99250037FFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23AFB591DBD99250037FFB1 /* Nosedive */;
+			targetProxy = F23AFB6F1DBD99250037FFB1 /* PBXContainerItemProxy */;
+		};
+		F23AFB7B1DBD99250037FFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23AFB591DBD99250037FFB1 /* Nosedive */;
+			targetProxy = F23AFB7A1DBD99250037FFB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F23AFB611DBD99250037FFB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23AFB621DBD99250037FFB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F23AFB661DBD99250037FFB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23AFB671DBD99250037FFB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23AFB801DBD99250037FFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F23AFB811DBD99250037FFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23AFB831DBD99250037FFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KZ4V98VU7;
+				INFOPLIST_FILE = Nosedive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.Nosedive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F23AFB841DBD99250037FFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4KZ4V98VU7;
+				INFOPLIST_FILE = Nosedive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.Nosedive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F23AFB861DBD99250037FFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NosediveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.NosediveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nosedive.app/Nosedive";
+			};
+			name = Debug;
+		};
+		F23AFB871DBD99250037FFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NosediveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.NosediveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nosedive.app/Nosedive";
+			};
+			name = Release;
+		};
+		F23AFB891DBD99250037FFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NosediveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.NosediveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nosedive;
+			};
+			name = Debug;
+		};
+		F23AFB8A1DBD99250037FFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NosediveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KandidProductions.NosediveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nosedive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23AFB551DBD99250037FFB1 /* Build configuration list for PBXProject "Nosedive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23AFB801DBD99250037FFB1 /* Debug */,
+				F23AFB811DBD99250037FFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23AFB821DBD99250037FFB1 /* Build configuration list for PBXNativeTarget "Nosedive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23AFB831DBD99250037FFB1 /* Debug */,
+				F23AFB841DBD99250037FFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23AFB851DBD99250037FFB1 /* Build configuration list for PBXNativeTarget "NosediveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23AFB861DBD99250037FFB1 /* Debug */,
+				F23AFB871DBD99250037FFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23AFB881DBD99250037FFB1 /* Build configuration list for PBXNativeTarget "NosediveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23AFB891DBD99250037FFB1 /* Debug */,
+				F23AFB8A1DBD99250037FFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F23AFB521DBD99250037FFB1 /* Project object */;
+}
